@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Submission1AndroidExpert</string>
+    <string name="desc_movie">As the Avengers and their allies have continued to protect the world from threats,...</string>
+
+
+    <array name="data_photo">
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_mortalengine</item>
+        <item>@drawable/poster_thegirl</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_dragon</item>
+    </array>
+
+    <string-array name="movie_title">
+        <item>Avengers: Infinity War</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>Bumblebee</item>
+        <item>Mortal Engines</item>
+        <item>the girl spider web</item>
+        <item>Glass</item>
+        <item>Aquaman</item>
+        <item>Deadpool</item>
+        <item>Creed II</item>
+        <item>train your dragon</item>
+    </string-array>
+
+    <string-array name="movie_desc">
+        <item>Ahmad Dahlan</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>Sutomo</item>
+        <item>Gatot Soebroto</item>
+        <item>Ki Hadjar Dewantarai</item>
+        <item>Mohammad Hatta</item>
+        <item>Soedirman</item>
+        <item>Soekarno</item>
+        <item>Soepomo</item>
+        <item>Tan Malaka</item>
+    </string-array>
+
+    <string-array name="movie_lenght">
+        <item>Ahmad Dahlan</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>Sutomo</item>
+        <item>Gatot Soebroto</item>
+        <item>Ki Hadjar Dewantarai</item>
+        <item>Mohammad Hatta</item>
+        <item>Soedirman</item>
+        <item>Soekarno</item>
+        <item>Soepomo</item>
+        <item>Tan Malaka</item>
+    </string-array>
+
+    <string-array name="movie_rating">
+        <item>8.4</item>
+        <item>7.4</item>
+        <item>5.4</item>
+        <item>8.0</item>
+        <item>6.5</item>
+        <item>7.0</item>
+        <item>5.4</item>
+        <item>6.5</item>
+        <item>7.9</item>
+        <item>6.6</item>
+    </string-array>
+
+
+    <string-array name="movie_date">
+        <item>April 25, 2018</item>
+        <item>December 6, 2018</item>
+        <item>December 15, 2018</item>
+        <item>Gatot Soebroto</item>
+        <item>Ki Hadjar Dewantarai</item>
+        <item>Mohammad Hatta</item>
+        <item>Soedirman</item>
+        <item>Soekarno</item>
+        <item>Soepomo</item>
+        <item>Tan Malaka</item>
+    </string-array>
+
+
+    <string-array name="movie_genre">
+        <item>Ahmad Dahlan</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>Sutomo</item>
+        <item>Gatot Soebroto</item>
+        <item>Ki Hadjar Dewantarai</item>
+        <item>Mohammad Hatta</item>
+        <item>Soedirman</item>
+        <item>Soekarno</item>
+        <item>Soepomo</item>
+        <item>Tan Malaka</item>
+    </string-array>
+
+</resources>
