@@ -2,13 +2,8 @@ package com.sunflower.submission1androidexpert;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ActionBar;
 import android.content.res.TypedArray;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.view.Window;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 
@@ -16,7 +11,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String[] movietitle,rating;
+    private String[] movietitle,moviedate,movieduration,rating;
     private MovieAdapter adapter;
     private TypedArray movieposter;
     private ArrayList<Movie> movies;
@@ -38,7 +33,11 @@ public class MainActivity extends AppCompatActivity {
     private void prepare() {
         movietitle = getResources().getStringArray(R.array.movie_title);
         rating = getResources().getStringArray(R.array.movie_rating);
+        moviedate = getResources().getStringArray(R.array.movie_date);
+        movieduration = getResources().getStringArray(R.array.movie_duration);
         movieposter = getResources().obtainTypedArray(R.array.data_photo);
+
+
     }
 
     private void addItem() {
@@ -48,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
             movie.setPhoto(movieposter.getResourceId(i, -1));
             movie.setTitle_movie(movietitle[i]);
             movie.setRating(rating[i]);
+            movie.setDuration_movie(movieduration[i]);
+            movie.setDate_movie(moviedate[i]);
             movies.add(movie);
         }
         adapter.setHeroes(movies);

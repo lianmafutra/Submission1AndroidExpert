@@ -35,7 +35,6 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
-                android:text="Avenger Infinty War"
                 android:textColor="@android:color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -48,13 +47,12 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="Animation | Action | Adventure"
                 android:textColor="@android:color/white"
                 android:textSize="10sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="@+id/tv_title_movie"
-                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+                app:layout_constraintTop_toBottomOf="@+id/tv_date" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -70,17 +68,16 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="@+id/textView2"
-                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:layout_constraintTop_toBottomOf="@+id/tv_duration"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/tv_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:drawableLeft="@drawable/ic_date_range_black_24dp"
                 android:drawablePadding="5dp"
-                android:text="April 25, 2018"
                 android:textColor="@android:color/white"
                 android:textSize="10sp"
                 android:textStyle="italic"
@@ -88,7 +85,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/tv_title_movie" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/tv_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -97,7 +94,6 @@
                 android:paddingTop="2dp"
                 android:paddingRight="5dp"
                 android:paddingBottom="2dp"
-                android:text="105 min"
                 android:textColor="#ffffff"
                 android:textSize="10sp"
                 app:layout_constraintStart_toStartOf="@+id/textView2"
@@ -156,9 +152,9 @@
                 android:rating="5"
                 android:stepSize="0.1"
                 android:theme="@style/RatingBar"
-                app:layout_constraintBottom_toBottomOf="@+id/textView6"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_duration"
                 app:layout_constraintStart_toEndOf="@+id/tv_rating"
-                app:layout_constraintTop_toTopOf="@+id/textView6"
+                app:layout_constraintTop_toTopOf="@+id/tv_duration"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -167,13 +163,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginLeft="12dp"
-                android:text="8.0"
                 android:textColor="@color/colorGold"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/textView6"
-                app:layout_constraintStart_toEndOf="@+id/textView6"
-                app:layout_constraintTop_toTopOf="@+id/textView6" />
+                app:layout_constraintBottom_toBottomOf="@+id/tv_duration"
+                app:layout_constraintStart_toEndOf="@+id/tv_duration"
+                app:layout_constraintTop_toTopOf="@+id/tv_duration" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -200,6 +195,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
