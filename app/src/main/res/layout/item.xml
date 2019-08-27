@@ -47,6 +47,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:text="Animation | Action | Adventure"
                 android:textColor="@android:color/white"
                 android:textSize="10sp"
                 app:layout_constraintEnd_toEndOf="parent"
