@@ -2,7 +2,6 @@
     <string name="app_name">Submission1AndroidExpert</string>
     <string name="desc_movie">As the Avengers and their allies have continued to protect the world from threats,...</string>
 
-
     <array name="data_photo">
         <item>@drawable/poster_avengerinfinity</item>
         <item>@drawable/poster_spiderman</item>
@@ -21,25 +20,25 @@
         <item>Spider-Man: Into the Spider-Verse</item>
         <item>Bumblebee</item>
         <item>Mortal Engines</item>
-        <item>the girl spider web</item>
+        <item>The girl spider web</item>
         <item>Glass</item>
         <item>Aquaman</item>
         <item>Deadpool</item>
         <item>Creed II</item>
-        <item>train your dragon</item>
+        <item>How train your dragon</item>
     </string-array>
 
     <string-array name="movie_desc">
-        <item>Ahmad Dahlan</item>
-        <item>Spider-Man: Into the Spider-Verse</item>
-        <item>Sutomo</item>
-        <item>Gatot Soebroto</item>
-        <item>Ki Hadjar Dewantarai</item>
-        <item>Mohammad Hatta</item>
-        <item>Soedirman</item>
-        <item>Soekarno</item>
-        <item>Soepomo</item>
-        <item>Tan Malaka</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy</item>
+        <item>Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson "Kingpin" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.</item>
+        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred</item>
+        <item>Many thousands of years in the future, Earth’s cities roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive traction cities, the old London, Tom</item>
+        <item>In Stockholm, Sweden, hacker Lisbeth Salander is hired by Frans Balder, a computer engineer, to retrieve a program that he believes it is too dangerous to exist.</item>
+        <item>series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence</item>
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic peopl</item>
+        <item>A kidnapped Fred Savage is forced to endure Deadpool\'s PG-13 rendition of Deadpool 2 as a Princess Bride-esque story that\'s full of magic, wonder zero</item>
+        <item>Between personal obligations and training for his next big fight against an opponent with ties to his family\'s past, Adonis Creed is up against the challenge of his life.</item>
+        <item>As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes</item>
     </string-array>
 
     <string-array name="movie_duration">
@@ -56,16 +55,17 @@
     </string-array>
 
     <string-array name="movie_rating">
+        <item>8.3</item>
         <item>8.4</item>
-        <item>7.4</item>
-        <item>5.4</item>
-        <item>8.0</item>
         <item>6.5</item>
-        <item>7.0</item>
-        <item>5.4</item>
+        <item>6.0</item>
+        <item>6.0</item>
+
         <item>6.5</item>
-        <item>7.9</item>
-        <item>6.6</item>
+        <item>6.8</item>
+        <item>6.9</item>
+        <item>6.7</item>
+        <item>7.7</item>
     </string-array>
 
 
@@ -84,16 +84,16 @@
 
 
     <string-array name="movie_genre">
-        <item>Animation | Action | Adventure</item>
-        <item>Spider-Man: Into the Spider-Verse</item>
-        <item>Sutomo</item>
-        <item>Gatot Soebroto</item>
-        <item>Ki Hadjar Dewantarai</item>
-        <item>Mohammad Hatta</item>
-        <item>Soedirman</item>
-        <item>Soekarno</item>
-        <item>Soepomo</item>
-        <item>Tan Malaka</item>
+        <item>Adventure | Action | Science Fiction</item>
+        <item>Action | Adventure | Science Fiction</item>
+        <item>Action | Adventure | Adventure</item>
+        <item>Adventure | Fantasy </item>
+        <item>Action | Crime | Thriller</item>
+        <item>Thriller | Drama | Science Fiction</item>
+        <item>Action | Adventure | Fantasy</item>
+        <item>Comedy | Action</item>
+        <item>Drama</item>
+        <item>Fantasy | Adventure | Animation</item>
     </string-array>
 
 </resources>
